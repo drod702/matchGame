@@ -2,53 +2,101 @@ document.addEventListener('DOMContentLoaded', () => {
     // card options
     const cardArray = [
         {
-            name: 'fries',
-            img: 'images/fries.png'
+            name: 'ariel',
+            img: 'images/ariel.png'
         },
         {
-            name: 'fries',
-            img: 'images/fries.png'
+            name: 'ariel',
+            img: 'images/ariel.png'
         },
         {
-            name: 'cheeseburger',
-            img: 'images/cheeseburger.png'
+            name: 'aurora',
+            img: 'images/aurora.png'
         },
         {
-            name: 'cheeseburger',
-            img: 'images/cheeseburger.png'
+            name: 'aurora',
+            img: 'images/aurora.png'
         },
         {
-            name: 'hotdog',
-            img: 'images/hotdog.png'
+            name: 'belle',
+            img: 'images/belle.png'
         },
         {
-            name: 'hotdog',
-            img: 'images/hotdog.png'
+            name: 'belle',
+            img: 'images/belle.png'
         },
         {
-            name: 'ice-cream',
-            img: 'images/ice-cream.png'
+            name: 'cinderella',
+            img: 'images/cinderella.png'
         },
         {
-            name: 'ice-cream',
-            img: 'images/ice-cream.png'
+            name: 'cinderella',
+            img: 'images/cinderella.png'
         },
         {
-            name: 'milkshake',
-            img: 'images/milkshake.png'
+            name: 'jasmine',
+            img: 'images/jasmine.png'
         },
         {
-            name: 'milkshake',
-            img: 'images/milkshake.png'
+            name: 'jasmine',
+            img: 'images/jasmine.png'
         },
         {
-            name: 'pizza',
-            img: 'images/pizza.png'
+            name: 'merideth',
+            img: 'images/merideth.png'
         },
         {
-            name: 'pizza',
-            img: 'images/pizza.png'
-        }
+            name: 'merideth',
+            img: 'images/merideth.png'
+        },
+        {
+            name: 'moana',
+            img: 'images/moana.png'
+        },
+        {
+            name: 'moana',
+            img: 'images/moana.png'
+        },
+        {
+            name: 'mulan',
+            img: 'images/mulan.png'
+        },
+        {
+            name: 'mulan',
+            img: 'images/mulan.png'
+        },
+        {
+            name: 'pocahontas',
+            img: 'images/pocahontas.png'
+        },
+        {
+            name: 'pocahontas',
+            img: 'images/pocahontas.png'
+        },
+        {
+            name: 'rapunzel',
+            img: 'images/rapunzel.png'
+        },
+        {
+            name: 'rapunzel',
+            img: 'images/rapunzel.png'
+        },
+        {
+            name: 'snow white',
+            img: 'images/snowWhite.png'
+        },
+        {
+            name: 'snow white',
+            img: 'images/snowWhite.png'
+        },
+        {
+            name: 'tiana',
+            img: 'images/tiana.png'
+        },
+        {
+            name: 'tiana',
+            img: 'images/tiana.png'
+        },
     ]
 
     cardArray.sort( () => 0.5 - Math.random())
@@ -79,10 +127,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if(optionOneId == optionTwoId) {
             cards[optionOneId].setAttribute('src', 'images/blank.png')
             cards[optionTwoId].setAttribute('src', 'images/blank.png')
-            alert('You have clicked the same image!')
+            // alert('You have clicked the same image!')
           }
           else if (cardsChosen[0] === cardsChosen[1]) {
-            alert('You found a match')
+            // alert('You found a match')
             cards[optionOneId].setAttribute('src', 'images/white.png')
             cards[optionTwoId].setAttribute('src', 'images/white.png')
             cards[optionOneId].removeEventListener('click', flipCard)
@@ -91,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
           } else {
             cards[optionOneId].setAttribute('src', 'images/blank.png')
             cards[optionTwoId].setAttribute('src', 'images/blank.png')
-            alert('Sorry, try again')
+            // alert('Sorry, try again')
           }
           cardsChosen = []
           cardsChosenId = []
