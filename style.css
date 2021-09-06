@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     background-color: #000;
+    color: #fff;
 }
 
 .container {
@@ -36,6 +37,6 @@ button {
     font-size: 16px;
 }
 
-h1, p {
-    color: #fff;
+p, h3 {
+    margin-bottom: 2rem;
 }
