@@ -41,62 +41,62 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'jasmine',
             img: 'images/jasmine.png'
         },
-        {
-            name: 'merideth',
-            img: 'images/merideth.png'
-        },
-        {
-            name: 'merideth',
-            img: 'images/merideth.png'
-        },
-        {
-            name: 'moana',
-            img: 'images/moana.png'
-        },
-        {
-            name: 'moana',
-            img: 'images/moana.png'
-        },
-        {
-            name: 'mulan',
-            img: 'images/mulan.png'
-        },
+        // {
+        //     name: 'merideth',
+        //     img: 'images/merideth.png'
+        // },
+        // {
+        //     name: 'merideth',
+        //     img: 'images/merideth.png'
+        // },
+        // {
+        //     name: 'moana',
+        //     img: 'images/moana.png'
+        // },
+        // {
+        //     name: 'moana',
+        //     img: 'images/moana.png'
+        // },
         {
             name: 'mulan',
             img: 'images/mulan.png'
         },
         {
-            name: 'pocahontas',
-            img: 'images/pocahontas.png'
+            name: 'mulan',
+            img: 'images/mulan.png'
         },
-        {
-            name: 'pocahontas',
-            img: 'images/pocahontas.png'
-        },
-        {
-            name: 'rapunzel',
-            img: 'images/rapunzel.png'
-        },
-        {
-            name: 'rapunzel',
-            img: 'images/rapunzel.png'
-        },
-        {
-            name: 'snow white',
-            img: 'images/snowWhite.png'
-        },
-        {
-            name: 'snow white',
-            img: 'images/snowWhite.png'
-        },
-        {
-            name: 'tiana',
-            img: 'images/tiana.png'
-        },
-        {
-            name: 'tiana',
-            img: 'images/tiana.png'
-        },
+        // {
+        //     name: 'pocahontas',
+        //     img: 'images/pocahontas.png'
+        // },
+        // {
+        //     name: 'pocahontas',
+        //     img: 'images/pocahontas.png'
+        // },
+        // {
+        //     name: 'rapunzel',
+        //     img: 'images/rapunzel.png'
+        // },
+        // {
+        //     name: 'rapunzel',
+        //     img: 'images/rapunzel.png'
+        // },
+        // {
+        //     name: 'snow white',
+        //     img: 'images/snowWhite.png'
+        // },
+        // {
+        //     name: 'snow white',
+        //     img: 'images/snowWhite.png'
+        // },
+        // {
+        //     name: 'tiana',
+        //     img: 'images/tiana.png'
+        // },
+        // {
+        //     name: 'tiana',
+        //     img: 'images/tiana.png'
+        // },
     ]
 
     cardArray.sort( () => 0.5 - Math.random())
